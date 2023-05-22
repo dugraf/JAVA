@@ -29,7 +29,7 @@ public class ManipulacaoVisualizarArquivos
             System.out.println(file);
         }
 
-        boolean success = new File(strPath + "\\sbudir").mkdir();
+        boolean success = new File(strPath + "\\subdir").mkdir();
 
         System.out.println("Directory created successfully: " + success);
 
